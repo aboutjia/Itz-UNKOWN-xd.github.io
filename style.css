@@ -1,0 +1,72 @@
+body 
+{
+    padding:0;
+    margin:0;
+    background-color:#212122;
+}
+#con
+{
+    position:absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    height:50%;
+    width:80%;
+    background-color:black;
+    padding:20px;
+    border-radius:10%;
+    border:1vw cyan double;
+    box-shadow: 0 0 0 15px #000000;
+    font-family:Quantico;
+
+}
+#t
+{
+    position:relative;
+    top:30px;
+    color:white;
+}
+#da,#w
+{
+    position:relative;
+    top:150px;
+    display:none;
+    height:15vw;
+    width:27vw;
+    font-size:8vw;
+    background:none;
+    outline:none;
+    border:1vw cyan double;
+    color:red;
+    font-family:Quantico;
+}
+#w
+{
+    font-size:3vw;
+    position:relative ;
+    top:110px;
+    left:35%;
+}
+ul li
+{
+    color:white;
+    font-size:12px;
+    
+}
+h2
+{
+    font-family:Quantico;
+    font-size:7vw;
+    color:white;
+    text-shadow:0 0 10px white;
+}
+#det
+{
+    display:none;
+}
+#wm 
+{
+    display:none;
+}
