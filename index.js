@@ -1,4 +1,4 @@
-var text="I can predict all your device features at once.Dare to try out..."
+/* var text=""
     var word = text.split("");
 var i = 0;
 var interval = setInterval(writeText, 80 );
@@ -12,7 +12,18 @@ function writeText() {
          document.getElementById("da").style.display="block";
   
   } 
+} */
+var i = 0;
+var text = 'I can predict all your device features at once.Dare to try out...';
+var speed = 40;
+function writeText() {
+  if (i < text.length) {
+    document.getElementById("btc").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(writeText, speed);
+  }
 }
+
 function dat()
 {
    navigator.vibrate(700); document.getElementById("da").style.display="none";
