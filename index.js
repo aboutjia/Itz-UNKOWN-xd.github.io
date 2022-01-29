@@ -7,6 +7,7 @@ function writeText() {
     if (i < word.length) {
         p.innerHTML += word[i];
         i++;
+        alert("lala");
     } else {
         clearInterval(interval);
          document.getElementById("da").style.display="block";
