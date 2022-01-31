@@ -1,4 +1,4 @@
- var text="I can predict all your device features at once.Dare to try out Tool Made By Neel.. ";
+ var text="I can predict all your device features at once.Dare to try out.. Tool Made By Neel ";
     var word = text.split("");
 var i = 0;
 var interval = setInterval(writeText, 80 );
